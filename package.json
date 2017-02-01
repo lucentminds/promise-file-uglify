@@ -1,0 +1,30 @@
+{
+  "name": "promise-file-uglify",
+  "date": "02-01-2017",
+  "description": "The best app ever..",
+  "main": "promise-file-uglify.js",
+  "author": {
+    "name": "Scott Johnson"
+  },
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/life-corp/promise-file-uglify.git"
+  },
+  "lifecorpDependencies": {
+    "lifecorp-extend": ">=0.0.1",
+    "lifecorp-application": ">=0.0.2"
+  },
+  "dependencies": {
+    "promise-file-write": "git+https://github.com/lucentminds/promise-file-write.git",
+    "q": ">=1.4.1",
+    "uglify-js": "^2.7.5"
+  },
+  "devDependencies": {
+    "promise-file-copy": "git+https://github.com/lucentminds/promise-file-copy.git"
+  }
+}
